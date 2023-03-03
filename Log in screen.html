@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cajero automático</title>
+    <link rel="shortcut icon" href="./banco.png" type="image/x-icon">
+</head>
+<body>
+   <div class="imagen-bienvenida">
+        <div class="encabezado">
+            <div class="header-container"><p>Cajero X992<br> 
+            CDMX 1500XW<br> 
+            CDMX</p>
+            </div>
+            <div class="header-container"><p>26 febrero 2023 | 19:35</p></div>
+            <div class="header-container"><p>Bienvenido a la sucursal Del Valle</p></div>
+        </div>
+        <div class="welcome">
+            <div class="welcome-section">
+                <div class="welcom-message">
+                <h1>Bienvenido al Banco Dev.F</h1>
+                </div>
+            </div>
+            <div class="image-section">
+                <div class="img-atm"><img src="./ATM machine-amico.png" alt="imagen-cajero">
+                </div>
+            </div>
+        </div>  
+    </div>
+
+
+    <div class="login-section">
+        <div style="margin-left: 100px;margin-top: 50px;">
+            <div><h2>Accede a tu cuenta</h2></div>
+            <div>
+        <!-- formulario log in -->
+            <form id="loginform">
+            <input type="text" name= "user" id="correo" class="login-input" placeholder="Usuario">
+            
+            <input type="password" name="contraseña" id="password" class="login-input" placeholder="Contraseña">
+            <input id="go-button" type="button" onclick="login(this.form)" value="Ingresar">
+            </form>
+        </div>
+        </div>
+    </div>
+
+    <script src="./pagina-inicial.js"></script>
+
+
+</body>
+</html>

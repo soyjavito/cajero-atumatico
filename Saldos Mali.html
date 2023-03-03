@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Bienvenido a tu cuenta</title>
+    <link rel="shortcut icon" href="./banco.png" type="image/x-icon">
+
+</head>
+<body>
+    <main>   <!--Amarillo-->
+        <div class="home-header"> <!--naranja-->
+            <div class="element-header"> <!--azul-->
+                <img class="logo-devf" src="./devf-white.png" alt="Logo banco dev.f">
+            </div>
+            <div class="element-header"> <!--azul-->
+                
+            </div>
+            <div class="element-header"> <!--azul-->
+                <p>Línea Banco DevF <br> 
+                    (55) 5232 4321<br> 
+                    Cajero X992</p>
+            </div>
+        </div>
+        <div class="second-header">
+        <!--naranja-->
+            <div class="home-title"> <!--azul-->
+                <h3>Inicio</h3>
+                <h4>Selecciona una operación</h4>
+                <h4>$</h4><h4 id="resultado"></h4>
+            </div>
+        </div>
+        <div class="option-selector">
+                <!--naranja-->
+                <div onclick="saldoMali()" class="option-container"> <!--azul-->
+                    <div>
+                            <h4 style="color: #3e2a7d; padding-top: 20px">Consulta de Saldo</h4>
+                        </div>
+                    <div>
+                        <img src="./Consulta saldo.png" alt="">
+                    </div>
+
+                </div>
+                <div>
+
+                    <div onclick="retiroMali()" class="option-container"> <!--azul-->
+                        <div>
+                                <h4 style="color: #3e2a7d; padding-top: 20px">Retirar efectivo</h4>
+                            </div>
+                        <div>
+                            <img src="./ATM retiro.png" alt="">
+                        </div>
+    
+                    </div>
+
+ 
+                    
+                </div>
+              <div onclick="abonoMali()" class="option-container"> <!--azul-->
+                        <div>
+                            <h4 style="color: #3e2a7d; padding-top: 20px;">Depositar a mi cuenta</h4>
+                        </div>
+                        <div>
+                            <img src="./Depósito bancario.png" alt="">
+                        </div>
+                        
+                    </div>
+                </div>
+
+        </div>
+
+
+
+
+
+
+    </main>
+
+    <script src="./pagina-inicial.js"></script>
+
+</body>
+</html>
